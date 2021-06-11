@@ -24,10 +24,10 @@ body {
 .card {
     width: 25vw;
     height: 40vh;
-    cursor: pointer;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 0 5px 10px hsla(0, 0%, 0%, 0.3);
     border-radius: 2%;
+    overflow: hidden;
 }
 
 .card:hover {
@@ -40,6 +40,7 @@ body {
     max-height: 50vh;
     object-fit: cover;
     border-radius: 2% 2% 0 0;
+    cursor: pointer;
 }
 
 .cardTeaserText {

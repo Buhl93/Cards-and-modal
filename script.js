@@ -2,9 +2,9 @@
     const modal = document.querySelector('.modal');
     const backdrop = document.querySelector('#backdrop');
 
-    // Make cards execute modalDisplay() when clicked
+    // Make card image execute modalDisplay() when clicked
     cards.forEach(card => {
-        card.addEventListener('click', e => {
+        card.querySelector(".cardImg").addEventListener('click', e => {
             modalDisplay(card);
         })
     })
