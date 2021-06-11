@@ -20,7 +20,7 @@
         const cardHeader = card.querySelector("h2").innerHTML;
         const cardText = card.querySelector(".cardText").innerHTML;
 
-        // Makes modal and backdrop visisble
+        // Makes modal and backdrop visible
         modal.style.display = 'block';
         backdrop.style.display = 'block';
 
